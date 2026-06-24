@@ -32,6 +32,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <artifactId>jersey-media-json-jackson</artifactId>
             <version>${jersey.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.inject</groupId>
+            <artifactId>jersey-hk2</artifactId>
+            <version>${jersey.version}</version>
+        </dependency>
         <!-- Jakarta Activation API for data stream processing -->
         <dependency>
             <groupId>com.sun.activation</groupId>

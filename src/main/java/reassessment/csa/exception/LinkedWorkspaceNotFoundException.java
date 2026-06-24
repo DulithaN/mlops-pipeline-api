@@ -1,0 +1,5 @@
+package reassessment.csa.exception;
+
+public class LinkedWorkspaceNotFoundException extends RuntimeException {
+    public LinkedWorkspaceNotFoundException(String message) { super(message); }
+}
